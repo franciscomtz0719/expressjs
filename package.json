@@ -4,11 +4,15 @@
   "description": "first express server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon ejercicio2.js"
   },
   "author": "franciscomtz",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
   }
 }

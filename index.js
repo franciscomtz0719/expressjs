@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/hola', (request, response) =>{
-    response.write('hola desde mi enpoint /hola')
+    response.write('hola desde mi enpoint hola /hola')
     response.end()
 })
 app.get('/adios', (request, response) =>{
@@ -10,5 +10,5 @@ app.get('/adios', (request, response) =>{
 })
 
 app.listen(8080, ()=>{
-    console.log('ya estamos escuchando nuestro servido express')
+    console.log('ya estamos escuchando nuestro servido express 2')
 })
