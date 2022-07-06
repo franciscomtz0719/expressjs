@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon ejercicio2.js"
+    "dev": "nodemon tarea.js"
   },
   "author": "franciscomtz",
   "license": "ISC",
